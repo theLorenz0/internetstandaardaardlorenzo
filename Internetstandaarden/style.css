@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+body {
+    background-color: antiquewhite;
+    margin: 0 auto;
+    min-width: 10em;
+    max-width: 85vw;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid black; /* Lijn onder de header */
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(223, 195, 177);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    color:  rgb(135, 0, 0)
+}
+
+.currentPage {
+    color: rgb(223, 195, 177);
+    background-color: rgb(135, 0, 0)
+}
+
+nav a:active {
+    transform: translateY(0.6em);
+}
+
+nav a:hover {
+    color:white;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(135, 0, 0)
+}
+
+.bobagif {
+    border: 1px solid rgb(107, 103, 103);
+} 
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-horizontaal {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
